@@ -1,0 +1,13 @@
+
+.sale {
+
+  animation: sale 3s;
+  animation-iteration-count: 100;
+}
+
+@keyframes sale {
+    0%  {color: #f2fb43;}
+  25% {color: #ee341f;}
+  50%  {color: #ed7575;}
+  100% {color: #fefe04;}
+}

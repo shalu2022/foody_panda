@@ -1,0 +1,14 @@
+
+.heading {
+
+  animation: mymove 3s;
+}
+
+@keyframes mymove {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

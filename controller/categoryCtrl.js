@@ -1,6 +1,6 @@
 const Category = require('../model/categoryModel')
 
-const CategoryCtrl = {
+const categoryCtrl = {
     getAll: async (req,res)=>{
         try{
             let data = await Category.find()
@@ -54,4 +54,4 @@ const CategoryCtrl = {
     }
 }
 
-module.exports = CategoryCtrl
+module.exports = categoryCtrl

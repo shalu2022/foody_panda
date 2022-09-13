@@ -55,7 +55,7 @@ const start = async () => {
             console.log(`server is listening at the port http://localhost:${PORT}`)
         })
     }catch (err){
-        // return re2b tracker journals.status(500).json({msg: err.message})
+  
         throw err;
     }
 }
